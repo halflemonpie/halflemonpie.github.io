@@ -1,0 +1,107 @@
+body {
+    color: white;
+    background: black;
+  }
+  
+  #page-one {
+    height: 100vh;
+    background: black;
+  }
+  
+  nav {
+    float: right;
+  /*   background: yellow; */
+    position: sticky;
+    top: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aqua;
+  }
+  
+  #nav-bar:hover {
+  /*   background: yellow; */
+  }
+  
+  .nav-items:hover {
+    background: orange;
+    color: green;
+    border-color: orange;
+    border-radius: 8px;
+    border-style: solid;
+  }
+  
+  #welcome {
+    font-size: 20vh;
+  /*   background: yellow; */
+    display: inline-block;
+    color: white;
+  }
+  
+  span:hover {
+    color: blue;
+  }
+  
+  #my-photo {
+    margin-left: 10vw;
+  }
+  
+  #page-two {
+    height: 100vh;
+    background: black;
+    display: grid;
+    grid-template-columns: 3fr 9fr 1fr;
+    
+  }
+  
+  #aboutmeparagraph {
+    background: black;
+  }
+  
+  #lab-photo {
+    align-self: center;
+  }
+  
+  #page-three {
+    height: 100vh;
+    background: black;
+  }
+  
+  #my-work {
+    text-align: center;
+  }
+  
+  #worklist {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  #page-four {
+    height: 100vh;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #contact-list > * {
+    margin: 0px 10px 0px 10px;
+    float: left;
+  }
+  
+  #contact-list > *:hover {
+    background: orange;
+    color: green;
+    border-color: orange;
+    border-radius: 8px;
+    border-style: solid;
+  }
+  
